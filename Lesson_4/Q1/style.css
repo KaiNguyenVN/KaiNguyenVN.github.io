@@ -1,0 +1,52 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.header, .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    flex-shrink: 0; /* Prevents resizing of header and footer */
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.content {
+    flex: 1; /* Takes up available space between header and footer */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 1rem;
+    margin-top: 60px; /* Space for fixed header */
+    margin-bottom: 60px; /* Space for fixed footer */
+}
+
+.column {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    flex-basis: 40%;
+    text-align: center;
+}
