@@ -1,0 +1,29 @@
+header {
+    background-color: #f7edc4;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.product-card {
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card .image {
+    height: 200px;
+    width: 200px;
+    background-color: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.discount {
+    color: red;
+}
+footer {
+    background-color: #f7edc4;
+    padding: 10px;
+    text-align: left;
+}

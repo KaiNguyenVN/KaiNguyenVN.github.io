@@ -1,0 +1,26 @@
+ /* Custom CSS */
+ .product-main-img {
+    height: 300px;
+    background-color: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .thumbnail-img {
+    height: 80px;
+    background-color: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .comment-box {
+    border: 1px solid #1a1a1a;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .footer {
+    background-color: #fef7da;
+    text-align: left;
+    padding: 10px 0;
+  }

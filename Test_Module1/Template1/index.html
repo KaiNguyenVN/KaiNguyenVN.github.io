@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Shop</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Header -->
+ <header class="py-2">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="fw-bold fs-4">My Shop</div>
+      <nav class="ms-auto">
+        <a href="#" class="text-decoration-none text-dark mx-3">Home</a>
+        <a href="#" class="text-decoration-none text-dark mx-3">About us</a>
+        <a href="#" class="text-decoration-none text-dark mx-3">Contact</a>
+      </nav>
+      <button class="btn btn-outline-primary" style="background-color: rgb(197, 197, 214); color: black">My Cart (0)</button>
+    </div>
+  </header>
+
+
+  <!-- Main Content -->
+  <div class="container mt-4">
+    <div class="row">
+      <!-- Sidebar -->
+      <aside class="col-md-3 border rounded p-2" style="max-height: fit-content; max-width: fit-content;">
+        <h5>Categories</h5>
+        <ul class="list-unstyled">
+          <li><input type="checkbox" checked style="background-color:aquamarine"> Devices</li>
+          <li><input type="checkbox" checked> Funitures</li>
+          <li><input type="checkbox" checked> Cloths</li>
+          <li><input type="checkbox" checked> Foods & Drink</li>
+          <li><input type="checkbox" checked> Materials</li>
+          <li><input type="checkbox" checked> Computers</li>
+        </ul>
+        <button class="btn btn-sm btn-info">Show more...</button>
+      </aside>
+
+      <!-- Products Section -->
+      <section class="col-md-10">
+        <!-- Filter Bar -->
+        <div class="row mb-3 border rounded p-2  ms-auto">
+          <div class="col-md-8">
+            <input type="text" class="form-control" placeholder="Enter keyword to search">
+          </div>
+          <div class="col-md-2">
+            <select class="form-select">
+              <option>Sort by</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <select class="form-select">
+              <option>Order by</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="row">
+          <!-- Product Card (Repeat this card for multiple products) -->
+
+           <!--Row 1-->
+          <div class="col-5 col-md-3 mb-3">
+            <div class="product-card">
+              <div class="image">IMAGE</div>
+              <h6 class="mt-2">Lorem ipsum dolor</h6>
+              <p>
+                <span class="text-primary">$129.01</span>
+                <span class="discount ms-2">10%</span>
+              </p>
+            </div>
+          </div>
+         
+          <div class="col-5 col-md-3 mb-3">
+            <div class="product-card">
+              <div class="image">IMAGE</div>
+              <h6 class="mt-2">Lorem ipsum dolor</h6>
+              <p>
+                <span class="text-primary">$129.01</span>
+                <span class="discount ms-2">10%</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-5 col-md-3 mb-3">
+            <div class="product-card">
+              <div class="image">IMAGE</div>
+              <h6 class="mt-2">Lorem ipsum dolor</h6>
+              <p>
+                <span class="text-primary">$129.01</span>
+                <span class="discount ms-2">10%</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-5 col-md-3 mb-3">
+            <div class="product-card">
+              <div class="image">IMAGE</div>
+              <h6 class="mt-2">Lorem ipsum dolor</h6>
+              <p>
+                <span class="text-primary">$129.01</span>
+                <span class="discount ms-2">10%</span>
+              </p>
+            </div>
+          </div>
+
+          <!--Row 2-->
+          <div class="col-5 col-md-3 mb-3">
+            <div class="product-card">
+              <div class="image">IMAGE</div>
+              <h6 class="mt-2">Lorem ipsum dolor</h6>
+              <p>
+                <span class="text-primary">$129.01</span>
+                <span class="discount ms-2">10%</span>
+              </p>
+            </div>
+          </div>
+         
+          <div class="col-5 col-md-3 mb-3">
+            <div class="product-card">
+              <div class="image">IMAGE</div>
+              <h6 class="mt-2">Lorem ipsum dolor</h6>
+              <p>
+                <span class="text-primary">$129.01</span>
+                <span class="discount ms-2">10%</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-5 col-md-3 mb-3">
+            <div class="product-card">
+              <div class="image">IMAGE</div>
+              <h6 class="mt-2">Lorem ipsum dolor</h6>
+              <p>
+                <span class="text-primary">$129.01</span>
+                <span class="discount ms-2">10%</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-5 col-md-3 mb-3">
+            <div class="product-card">
+              <div class="image">IMAGE</div>
+              <h6 class="mt-2">Lorem ipsum dolor</h6>
+              <p>
+                <span class="text-primary">$129.01</span>
+                <span class="discount ms-2">10%</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pagination -->
+        <nav>
+          <ul class="pagination justify-content-left">
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item disabled"><span class="page-link">...</span></li>
+            <li class="page-item"><a class="page-link" href="#">50</a></li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p><strong>My Shop</strong> 
+    <p><strong>📍 22C Somewhere, Ha Noi | 📞 09876543210</strong></p>
+  </footer>
+  
+</body>
+</html>
